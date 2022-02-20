@@ -1,0 +1,55 @@
+
+body{
+    background-image: url("./imagem.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+ 
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 25px;
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.883);
+    max-width: 400px;
+    text-align: center;
+}
+.titulo{
+    color: bisque;
+}
+input{
+    background-color: white;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 20px;
+    border-style: none;
+    width: 80%;
+    height: 25px;
+    text-align: center;
+    outline: 0;
+    box-shadow: 5px 4px 6px black;
+}
+button {
+    margin-top: 25px;
+    border-radius: 20px;
+    width: 25%;
+    height: 25px;
+    outline: 0;
+    box-shadow: 5px 4px 6px black;
+}
+
+button:hover {
+    background-color: rgb(202, 202, 202);
+    cursor: pointer;
+}
+
+input:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+p {
+    font-size: 20px;
+    margin-top: 15px;
+}
